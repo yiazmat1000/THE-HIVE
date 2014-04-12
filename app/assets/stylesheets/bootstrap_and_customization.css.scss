@@ -1,0 +1,9 @@
+$body-bg: #2ecc71;
+$navbar-default-bg: #27ae60;
+$navbar-default-link-color: white;
+$jumbotron-bg:red;
+
+html body #bgimage {
+    background: url('splash.jpg');
+}
+@import 'bootstrap';
