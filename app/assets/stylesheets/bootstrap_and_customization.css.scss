@@ -1,9 +1,86 @@
-$body-bg: #2ecc71;
-$navbar-default-bg: #27ae60;
-$navbar-default-link-color: white;
-$jumbotron-bg:red;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,300);
 
-html body #bgimage {
-    background: url('splash.jpg');
-}
+$body-bg: #3498db;
+$navbar-default-bg: #fff;
+$navbar-default-link-color: #34495e;
+$jumbotron-bg:#2980b9;
+$text-color: white;
 @import 'bootstrap';
+
+
+input{
+	width:300px;
+	height:200px;
+}
+.form-controller {
+	width:150px;
+	height:30px;
+}
+#main_wrapper {
+	margin-top: 80px;
+
+}
+
+body {
+	background: url(ucla.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+label {
+font-size:25px;
+}
+
+#action_button {
+	float:left;
+	display:inline;
+}
+.form-control {
+	width: 50%;
+	height: 60px;
+	font-size: 30px;
+}
+.form-control-md {
+	width: 35%;
+	height:40px;
+	font-size:20px;
+}
+h1 {
+	font-weight: bolder;
+	font-size:110pt;
+	text-align:left;
+}
+h3 {
+
+	font-size:50px;
+	text-align:left;
+}
+h4 {
+	line-height:120%;
+}
+a:hover {
+	color:#2980b9;
+}
+a:active {
+	color:white;
+}
+.nav {
+	font-weight:bolder;
+}
+.first-head {
+	font-size:100px;
+}
+
+#category-club li{
+	display:inline;
+	padding: 40px;
+	font-size:25px;
+	font-weight: bolder;
+}
+
+#left-box {
+	width:200px;
+	height:700px;
+	background-color: #34495e; 
+}
+
